@@ -1,0 +1,302 @@
+{
+    "dataPageRU": [
+            {
+                "genButton" : "Cвяжитесь с Нами"
+            },
+            {
+                "h1": "Чем интересна Лида?",
+                "p": "Лида — маленький и уютный городок в Гродненской области. Он знаменит тем, что даже при небольшой площади радует туристов и местных жителей несколькими известными достопримечательностями. О самых популярных мы и расскажем.",
+                "boxes": [
+                    {
+                        "h": "01",
+                        "p": "Лидский Замок"
+                    },
+                    {
+                        "h": "02",
+                        "p": "Костелы"
+                    },
+                    {
+                        "h": "03",
+                        "p": "Церкви"
+                    },
+                    {
+                        "h": "04",
+                        "p": "Лидское Пиво"
+                    },
+                    {
+                        "h": "05",
+                        "p": "Промышленность"
+                    }
+                ]
+            },
+            {
+                "reviewH": "Обычный отзыв",
+                "reviewP": "Экскурсия по городу Лиде нам очень понравилась. И очень понравился нам гид Николай Викторович. Благодаря гиду мы узнали очень много интересного о всех эпохах жизни города и Лидского замка. Большое спасибо Николаю за его уникальные рассказы обо всем. С уважением группа работников КСУП 'Матвеевцы' Волковысского района"
+            },
+            {
+                "mainH": "Почему именно мы?", 
+                "boxes": [
+                    {
+                        "h": "Качество",
+                        "p": "Мы оказываем профессиональную поддержку нашим клиентам"
+                    },
+                    {
+                        "h": "Опыт",
+                        "p": "Колоссальный опыт, доверие туристов и сотрудничество с лучшими партнерами"
+                    },
+                    {
+                        "h": "Сервис",
+                        "p": "Общение, индивидуальный подход, внимание к мелочам и нюансам"
+                    }
+                ]
+            },
+            {
+                "filterLoc": "По локации",
+                "filterPr": "По цене",
+                "filterNm": "По имени"
+            },
+            {
+                "asc": "По возрастанию",
+                "desc": "По убыванию"
+            },
+            {
+                "a1": "Главная",
+                "a2": "О Нас",
+                "a3": "Каталог"
+            },
+            {
+                "MainFormH": "Записаться",
+                "placeholderName": "Имя",
+                "placeholderPhone": "Телефон",
+                "footerButton": "Отправить",
+                "a1": "Главная",
+                "a2": "О Нас",
+                "a3": "Экскурсии",
+                "p": "Данный сайт - курсовой проект по дисциплине 'Скриптовые языки программирования'"
+            },
+            {
+                "h1": "Оформление Экскурсии",
+                "button": "Оформить"
+            },
+            {
+                "day": "День",
+                "month": "Месяц",
+                "year": "Год"
+            },
+            {
+                "count": "Количество человек"
+            },
+            {
+                "name": "Контактное имя"
+            },
+            {
+                "phone": "Телефон"
+            },
+            {
+                "email": "Email"
+            },
+            {
+                "textArea": "Ваше сообщение"
+            }
+    ],
+    "dataPageBY": [
+        {
+            "genButton" : "Звяжыцеся з намі"
+        },
+        {
+            "h1": "Чым цікавая Ліда?",
+            "p": "Ліда-маленькі і ўтульны гарадок у Гродзенскай вобласці. Ён знакаміты тым, што нават пры невялікай плошчы радуе турыстаў і мясцовых жыхароў некалькімі вядомымі славутасцямі. Аб самых папулярных мы і раскажам.",
+            "boxes": [
+                {
+                    "h": "01",
+                    "p": "Лідскі Замак"
+                },
+                {
+                    "h": "02",
+                    "p": "Касцёл"
+                },
+                {
+                    "h": "03",
+                    "p": "Царква"
+                },
+                {
+                    "h": "04",
+                    "p": "Лідскае Піва"
+                },
+                {
+                    "h": "05",
+                    "p": "Прамысловасць"
+                }
+            ]
+        },
+        {
+            "reviewH": "Звычайны водгук",
+            "reviewP": "Экскурсія па горадзе Лідзе нам вельмі спадабалася. І вельмі спадабаўся нам гід Мікалай Віктаравіч. Дзякуючы гіду мы даведаліся вельмі шмат цікавага пра ўсе эпохі жыцця горада і Лідскага замка. Вялікі дзякуй Мікалаю за яго унікальныя апавяданні пра ўсё. З павагай група работнікаў КСУП 'Мацвееўцы' Ваўкавыскага раёна"
+        },
+        {
+            "mainH": "Чаму менавіта мы?", 
+            "boxes": [
+                {
+                    "h": "Якасць",
+                    "p": "Мы аказваем прафесійную падтрымку нашым кліентам"
+                },
+                {
+                    "h": "Вопыт",
+                    "p": "Каласальны вопыт, давер турыстаў і супрацоўніцтва з лепшымі партнёрамі"
+                },
+                {
+                    "h": "Сервіс",
+                    "p": "Зносіны, індывідуальны падыход, увага да дробязяў і нюансаў"
+                }
+            ]
+        },
+        {
+            "filterLoc": "Па лакацыі",
+            "filterPr": "Па цане",
+            "filterNm": "Па імя"
+        },
+        {
+            "asc": "Па ўзрастанні",
+            "desc": "Па змяншэнні"
+        },
+        {
+            "a1": "Галоўная",
+            "a2": "Пра Нас",
+            "a3": "Каталог"
+        },
+        {
+            "MainFormH": "Запісацься",
+            "placeholderName": "Імя",
+            "placeholderPhone": "Тэлефон",
+            "footerButton": "Адправіць",
+            "a1": "Галоўная",
+            "a2": "Пра Нас",
+            "a3": "Каталог",
+            "p": "Данный сайт - курсовой проект по дисциплине 'Скриптовые языки программирования' / 'Разработка frontEnd-программ'"
+        },
+        {
+            "h1": "Афармленне экскурсіі",
+            "button":"Аформіць"
+        },
+        {
+            "day":"Дзень",
+            "month": "Месяц",
+            "year":"Год"
+        },
+        {
+            "count": "Колькасць чалавек"
+        },
+        {
+            "name": "Кантактнае імя"
+        },
+        {
+            "phone":"Тэлефон"
+        },
+        {
+            "email": "Email"
+        },
+        {
+            "textArea": "Ваша паведамленне"
+        }
+    ],
+    "dataPageEN": [
+        {
+            "genButton" : "Contact Us"
+        },
+        {
+            "h1": "What is interesting about Lida?",
+            "p": "Lida is a small and cozy town in the Grodno region. It is famous for the fact that even with a small area, it pleases tourists and locals with several famous sights. We will tell you about the most popular ones.",
+            "boxes": [
+                {
+                    "h": "01",
+                    "p": "Lida Castle"
+                },
+                {
+                    "h": "02",
+                    "p": "Churches"
+                },
+                {
+                    "h": "03",
+                    "p": "Churches"
+                },
+                {
+                    "h": "04",
+                    "p": "Lida Beer"
+                },
+                {
+                    "h": "05",
+                    "p": "Industry"
+                }
+            ]
+        },
+        {
+            "reviewH": "The usual review",
+            "reviewP": "We really liked the tour of the city of Lida. And we really liked the guide Nikolai Viktorovich. Thanks to the guide, we learned a lot of interesting things about all the epochs of the life of the city and the Lida Castle. Many thanks to Nikolai for his unique stories about everything. Sincerely, the group of employees of the CSU 'Matveevtsy' of the Volkovysk district"
+        },
+        {
+            "mainH": "Why us?", 
+            "boxes": [
+                {
+                    "h": "Quality",
+                    "p": "We provide professional support to our clients"
+                },
+                {
+                    "h": "Experience",
+                    "p": "Huge experience, trust of tourists and cooperation with the best partners"
+                },
+                {
+                    "h": "Service",
+                    "p": "Communication, individual approach, attention to details and nuances"
+                }
+            ]
+        },
+        {
+            "filterLoc": "By location",
+            "filterPr": "By price",
+            "filterNm": "By name"
+        },
+        {
+            "asc": "Ascending",
+            "desc": "Descending"
+        },
+        {
+            "a1": "Main",
+            "a2": "About Us",
+            "a3": "Catalog"
+        },
+        {
+            "MainFormH": "Sign up",
+            "placeholderName": "Name",
+            "placeholderPhone": "Telephone",
+            "footerButton": "Send",
+            "a1": "Main",
+            "a2": "About Us",
+            "a3": "Catalog",
+            "p": "This site is a course project on the discipline 'Scripting programming languages' / 'frontEnd software development'"
+        },
+        {
+            "h1": "Tour Design",
+            "button": "Checkout"
+        },
+        {
+            "day": "Day",
+            "month": "Month",
+            "year": "Year"
+        },
+        {
+            "count": "Number of people"
+        },
+        {
+            "name": "Contact name"
+        },
+        {
+            "phone": "Phone"
+        },
+        {
+            "email": "Email"
+        },
+        {
+            "textArea": "Your message"
+        }
+    ]
+}

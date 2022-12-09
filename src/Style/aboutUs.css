@@ -1,0 +1,106 @@
+@media (min-width: 501px) and (max-width: 1040.98px) {
+  .aboutUsContainer {
+    -ms-grid-columns: 320px;
+        grid-template-columns: 320px;
+  }
+  .box2 {
+    border-top: 1px solid #9C6CEB;
+    border-bottom: 1px solid #9C6CEB;
+    padding: 30px 20px 30px 20px;
+    margin: 30px 0 30px 0;
+  }
+  .aboutUsContainer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1041px) {
+  .aboutUsContainer {
+    -ms-grid-columns: 320px 370px 320px;
+        grid-template-columns: 320px 370px 320px;
+  }
+  .box2 {
+    border-left: 1px solid #9C6CEB;
+    border-right: 1px solid #9C6CEB;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .box3 {
+    padding-left: 20px;
+  }
+  .aboutUsContainer {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-grid-rows: 170px;
+        grid-template-rows: 170px;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutUsContainer {
+    -ms-grid-columns: 200px;
+        grid-template-columns: 200px;
+  }
+  .box2 {
+    border-top: 1px solid #9C6CEB;
+    border-bottom: 1px solid #9C6CEB;
+    padding: 30px 20px 30px 20px;
+    margin: 30px 0 30px 0;
+  }
+  .aboutUsContainer {
+    text-align: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.aboutUs {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.aboutUs > h3 {
+  font-size: 25px;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.aboutUsContainer {
+  display: -ms-grid;
+  display: grid;
+}
+
+.aboutUsContainer h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 35px;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.aboutUsContainer p {
+  font-size: 17px;
+  place-items: start;
+}
+
+.box1, .box2, .box3 {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+/*# sourceMappingURL=aboutUs.css.map */

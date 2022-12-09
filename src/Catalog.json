@@ -1,0 +1,235 @@
+{
+    "CatalogRU":[
+        {
+            "Name": "Лидский замок",
+            "Location": "Лида",
+            "NumFeedBack": "4",
+            "Price": "20",
+            "Stars": "5",
+            "Discription": "Лидский замок или замок Гедимина – фортификационное сооружение в белорусском городе Лиде. Крепость была построена для защиты от крестоносцев. Это самый старый и самый осаждавшийся из белорусских замков, дошедший до наших дней в изрядно потрепанном состоянии и отреставрированный только к 2010 году.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 0,
+            "Img": "../images/zamok.jpeg"
+        },
+        {
+            "Name": "Церковь Воздвижения Святого Креста",
+            "Location": "Лида",
+            "NumFeedBack": "5",
+            "Price": "30",
+            "Stars": "3",
+            "Discription": "Католический храм в Лиде, Белоруссия. Храм относится к Гродненской епархии. Памятник архитектуры в стиле виленское барокко, построен в 1747-1770 годах по проекту архитектора Иоганна Глаубица. Храм включён в Государственный список историко-культурных ценностей Республики Беларусь.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 1,
+            "Img": "./images/kostel.jpeg"
+        },
+        {
+            "Name": "Свято-Михайловский собор",
+            "Location": "Лида",
+            "NumFeedBack": "7",
+            "Price": "25",
+            "Stars": "5",
+            "Discription": "Свя́то-Миха́йловский собо́р (ранее костёл Святого Ио́сифа) — храм, расположенный в Лиде, Белоруссия, по ул. Советской, 20[4]. Первоначально построенный на деньги императора Павла I как католический храм при монастыре пиаристов, собор стал православным в 1863 году после перестройки сгоревшего костёла.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 2,
+            "Img": "./images/carch.jpeg"
+        },
+        {
+            "Name": "Завод Лидское Пиво",
+            "Location": "Лида",
+            "NumFeedBack": "11",
+            "Price": "40",
+            "Stars": "5",
+            "Discription": "Лидское пиво» — это частная компания, часть финского холдинга Olvi PLC. За 145 лет своей истории она постепенно превратилась из небольшой пивоварни в крупнейшее белорусское предприятие, производящее пиво и напитки.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 3,
+            "Img": "./images/lidbeerbar.jpeg"
+        },
+        {
+            "Name": "Курган Бессмертия",
+            "Location": "Лида",
+            "NumFeedBack": "4",
+            "Price": "5",
+            "Stars": "4",
+            "Discription": "Курган бессмертия в Лиде расположен в центральной части города, на территории обширного парка. Его начали насыпать 9 мая 1966 года. В результате получилась пятигранная пирамида высотой 7 м. Уже в следующем году сюда же была перенесена Могила неизвестного солдата.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 4,
+            "Img": "./images/park.jpeg"
+        },
+        {
+            "button": "заказать"
+        },
+        {
+            "timeValue": "часа"
+        },
+        {
+            "tours": "Экскурсии"
+        },
+        {
+            "feedBack": "отзывов"
+        },
+        {
+            "discript": "Описание"
+        }
+    ],
+    "CatalogBY": [
+        {
+            "Name":"Лідскі замак",
+            "Location":"Ліда",
+            "NumFeedBack": "4",
+            "Price": "20",
+            "Stars": "5",
+            "Discription": "Лідскі замак або замак Гедыміна – фартыфікацыйны будынак у беларускім горадзе Лідзе. Крэпасць была пабудавана для абароны ад крыжакоў. Гэта самы стары і самы абложаны з беларускіх замкаў, які дайшоў да нашых дзён у ладна патрапаным стане і адрэстаўраваны толькі да 2010 года.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 0,
+            "Img": "./images/zamok.jpeg"
+        },
+        {
+            "Name": "Царква Узвышэння Святога Крыжа",
+            "Location":"Ліда",
+            "NumFeedBack": "5",
+            "Price": "30",
+            "Stars": "3",
+            "Discription": "каталіцкі храм у Лідзе, Беларусь. Храм адносіцца да Гродзенскай епархіі. Помнік архітэктуры ў стылі Віленскае барока, пабудаваны ў 1747-1770 гадах па праекце архітэктара Іагана Глаўбіца. Храм уключаны ў Дзяржаўны спіс гісторыка-культурных каштоўнасцяў Рэспублікі Беларусь.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 1,
+            "Img": "./images/kostel.jpeg"
+        },
+        {
+            "Name":"Свята-Міхайлаўскі сабор",
+            "Location":"Ліда",
+            "NumFeedBack": "7",
+            "Price": "25",
+            "Stars": "5",
+            "Discription": "Свята-Міхайлаўскі сабор (раней касцёл Святога Язэпа) — храм, размешчаны ў Лідзе, Белоруссия, па вул. Савецкай, 20[4]. Першапачаткова пабудаваны на грошы імператара Паўла I як каталіцкі храм пры манастыры піярыстаў, сабор стаў праваслаўным у 1863 годзе пасля перабудовы згарэлага касцёла.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 2,
+            "Img": "./images/carch.jpeg"
+        },
+        {
+            "Name":"Завод Лідскае Піва",
+            "Location":"Ліда",
+            "NumFeedBack": "11",
+            "Price": "40",
+            "Stars": "5",
+            "Discription:": "Лідскае піва  — гэта прыватная кампанія, частка фінскага холдынгу Olvi PLC. За 145 гадоў сваёй гісторыі яна паступова ператварылася з невялікага бровара ў найбуйнейшае беларускае прадпрыемства, якое вырабляе піва і Напоі.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 3,
+            "Img": "./images/lidbeerbar.jpeg"
+        },
+        {
+            "Name": "Курган Неўміручасці",
+            "Location":"Ліда",
+            "NumFeedBack": "4",
+            "Price": "5",
+            "Stars": "4",
+            "Discription": "Курган неўміручасці ў Лідзе размешчаны ў цэнтральнай частцы горада, на тэрыторыі шырокага парку. Яго пачалі насыпаць 9 мая 1966 года. У выніку атрымалася пяцігранная піраміда вышынёй 7 м. ужо ў наступным годзе сюды ж была перанесена Магіла Невядомага салдата.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 4,
+            "Img": "./images/park.jpeg"
+        },
+        {
+            "button": "заказ"
+        },
+        {
+            "timeValue": "часа"
+        },
+        {
+            "tours": "экскурсіі"
+        },
+        {
+            "feedBack": "водгука"
+        },
+        {
+            "discript": "Апісанне"
+        }
+    ],
+    "CatalogEN": [
+        {
+            "Name": "Lida Castle",
+            "Location": "Lida",
+            "NumFeedBack": "4",
+            "Price": "20",
+            "Stars": "5",
+            "Discription": "Lida Castle or Gediminas Castle is a fortification in the Belarusian city of Lida. The fortress was built to protect against the Crusaders. This is the oldest and most besieged of the Belarusian castles, which has come down to our days in a pretty battered condition and restored only by 2010.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 0,
+            "Img": "./images/zamok.jpeg"
+            },
+            {
+            "Name": "Church of the Exaltation of the Holy Cross",
+            "Location": "Lida",
+            "NumFeedBack": "5",
+            "Price": "30",
+            "Stars": "3",
+            "Discription": "Catholic Church in Lida, Belarus. The church belongs to the Grodno diocese. An architectural monument in the style of the Vilna Baroque, built in 1747-1770 by architect Johann Glaubitz. The temple is included in the State List of Historical and cultural values of the Republic of Belarus.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 1,
+            "Img": "./images/kostel.jpeg"
+            },
+            {
+            "Name": "St. Michael's Cathedral",
+            "Location": "Lida",
+            "NumFeedBack": "7",
+            "Price": "25",
+            "Stars": "5",
+            "Discription": "St. Michael's Cathedral (formerly St. Joseph's Church) — temple, located in Lida, Belarus, on ul. Sovetskaya, 20. Originally built with the money of Emperor Paul I as a Catholic church at the Piarist monastery, the cathedral became Orthodox in 1863 after the reconstruction of the burned-down church.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 2,
+            "Img": "./images/carch.jpeg"
+            },
+            {
+            "Image": "../images/lidbeerbar.jpeg ",
+            "Name": "Lida Beer Factory",
+            "Location": "Lida",
+            "NumFeedBack": "11",
+            "Price": "40",
+            "Stars": "5",
+            "Discription": "Lida beer — this is a private company, part of the Finnish holding Olvi PLC. Over 145 years of its history, it has gradually turned from a small brewery into the largest Belarusian enterprise producing beer and beverages.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 3,
+            "Img": "./images/lidbeerbar.jpeg"
+            },
+            {
+            "Name": "The Mound of Immortality",
+            "Location": "Lida",
+            "NumFeedBack": "4",
+            "Price": "5",
+            "Stars": "4",
+            "Discription": "The mound of immortality in Lida is located in the central part of the city, on the territory of a vast park. It began to be poured on May 9, 1966. The result was a pentahedral pyramid with a height of 7 m . The Grave of the Unknown Soldier was moved here the following year.",
+            "Type": "...",
+            "Time": "2.5",
+            "id": 4,
+            "Img": "./images/park.jpeg"
+            },
+            {
+                "button": "order"
+            },
+            {
+                "timeValue": "hours"
+            },
+            {
+                "tours": "Tours"
+            },
+            {
+                "feedBack": "reviews"
+            },
+            {
+                "discript": "Discription"
+            }
+    ]
+
+}

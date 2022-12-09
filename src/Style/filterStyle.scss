@@ -1,0 +1,56 @@
+@media (min-width: 801px) and (max-width: 1040.98px) {
+  .AD {
+    width: 174px;
+  }
+  .ADSimple {
+    width: 145px;
+  }
+}
+@media (min-width: 1041px) {
+  .AD {
+    width: 174px;
+  }
+  .ADSimple {
+    width: 145px;
+  }
+}
+@media (max-width: 800px) {
+  .AD {
+    width: 130px;
+  }
+  .ADSimple {
+    width: 115px;
+  }
+}
+.filter:after {
+  position: relative;
+  content: "^";
+  opacity: 80%;
+  bottom: -3px;
+  right: 30px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  pointer-events: none;
+  box-sizing: border-box;
+  
+}
+
+.filter select {
+  /*  */
+    text-transform: lowercase;
+    font-size: 16px;
+    padding-right: 25px;
+    background-color: rgb(15, 15, 15);
+    color: rgba(255, 255, 255, 0.8);
+    border: none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    border-radius: 0px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+select::-ms-expand {
+  display: none;
+} 

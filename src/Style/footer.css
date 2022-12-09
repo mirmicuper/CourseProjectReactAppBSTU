@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@media (min-width: 501px) and (max-width: 900px) {
+  .footer {
+    grid-template: "L L L L" "F F A A";
+  }
+  .socNetFooter {
+    display: none;
+  }
+  .navBarFooter {
+    display: none;
+  }
+}
+
+@media (min-width: 901px) {
+  .footer {
+    grid-template: "L L L L" "F S N A";
+  }
+  .socNetFooter {
+    grid-area: S;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px;
+        grid-template-columns: 50px;
+    -ms-grid-rows: 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px;
+  }
+  .navBarFooter {
+    grid-area: N;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px;
+        grid-template-columns: 50px;
+    -ms-grid-rows: 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-template: "L L L L" "A A A A" "F F F F";
+  }
+  .socNetFooter {
+    display: none;
+  }
+  .navBarFooter {
+    display: none;
+  }
+  .infoAboutProjectFooter {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+.footer {
+  background: #202226;
+  display: -ms-grid;
+  display: grid;
+}
+
+/* -------ЛОГО-------- */
+.footerLogo {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  grid-area: L;
+}
+
+/* -------ФОРМА-------- */
+.footerForm {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 30px;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+}
+
+.mimiFormFooter {
+  display: -ms-grid;
+  display: grid;
+  grid-area: F;
+  -ms-grid-columns: 250px;
+      grid-template-columns: 250px;
+  -ms-grid-rows: 40px 100px 100px;
+      grid-template-rows: 40px 100px 100px;
+}
+
+.mimiFormFooter h2 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-left: 50px;
+}
+
+.mimiFormFooter button {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-decoration: none;
+}
+
+.mimiFormFooter input {
+  font-size: 20px;
+  background: #202226;
+  border: 1px solid #202226;
+  border-bottom: 1px solid oldlace;
+}
+
+.mimiFormFooter a {
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.281);
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 50%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 50px;
+  text-decoration: none;
+  height: 50px;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+[type="text"] {
+  margin-bottom: 30px;
+}
+
+/* ---------СОЦ-СЕТИ--------- */
+.socNetFooter img {
+  opacity: 0.8;
+}
+
+/* ----------ПРО-ПРОЕКТ---------- */
+.infoAboutProjectFooter {
+  width: 300px;
+  grid-area: A;
+}
+
+/* -----------НАВИГАЦИЯ------------ */
+.navBarFooter {
+  grid-area: N;
+}
+
+.navBarFooter a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+/*# sourceMappingURL=footer.css.map */

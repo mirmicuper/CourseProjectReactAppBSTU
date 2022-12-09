@@ -1,0 +1,146 @@
+.inputName, .inputEmail, .inputPhone {
+  opacity: .7;
+  border-radius: 6px;
+  height: 40px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.inputCount, .inputEmail,
+.date, .inputName,
+.inputPhone, .textArea
+.inputNameDiv, .selectTourMargin {
+  margin: 10px 0 10px 0;
+}
+
+.textArea {
+  opacity: .7;
+  border-radius: 6px;
+  height: 140px;
+  width: 250px;
+  font-size: 20px;
+}
+
+.selectTour {
+  display: inline;
+}
+
+.selectTour:after {
+  position: relative;
+  content: "U+1F4C5";
+  opacity: 80%;
+  right: 20px;
+  bottom: -3px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.selectTour {
+  /*  */
+  text-transform: lowercase;
+  width: 150px;
+  font-size: 16px;
+  padding-right: 25px;
+  background-color: rgba(66, 66, 66, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.date {
+  display: inline;
+}
+
+.date:after {
+  position: relative;
+  content: "^";
+  opacity: 80%;
+  right: 20px;
+  bottom: -3px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.date {
+  /*  */
+  text-transform: lowercase;
+  width: 50px;
+  font-size: 16px;
+  padding-right: 25px;
+  background-color: rgba(66, 66, 66, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.date::-ms-expand {
+  display: none;
+}
+
+.boxForInputs {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.boxForInputs:first-child {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.inputCount {
+  display: inline;
+  margin-left: 10px;
+}
+
+.inputCount:after {
+  position: relative;
+  content: "^";
+  opacity: 80%;
+  right: 20px;
+  bottom: -3px;
+  z-index: 1;
+  text-align: center;
+  width: 10%;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.inputCount {
+  /*  */
+  text-transform: lowercase;
+  width: 50px;
+  font-size: 16px;
+  padding-right: 25px;
+  background-color: rgba(66, 66, 66, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.inputCount::-ms-expand {
+  display: none;
+}
+/*# sourceMappingURL=inputs.css.map */

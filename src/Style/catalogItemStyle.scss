@@ -1,0 +1,90 @@
+.catalogItem {
+    background-color: rgba(32, 34, 38, 1);
+    display: grid;
+    width: 290px;
+    height: 390px;
+    border-radius: 9px;
+    border: 1px solid #9d6ceb00;
+    transition: 0.5s ease;
+}
+.catalogItem:hover {
+    border: 1px solid #9C6CEB;
+    box-shadow: -8px 8px 28px 0px #9d6ceb94;
+    overflow: hidden;
+}
+.catalogItem:hover .catalogItemImg{
+    transform: scale(1.06);
+}
+.catalogItem .catalogItemImg{
+    opacity: 0.7;
+    border-radius: 9px 9px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 95%;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.infoAboutItem {
+    margin-left: 15px;
+    display: grid;
+    justify-content: start;
+    /* grid-template-columns: 80px 80px;
+    grid-template-rows: 20px 10px; */
+    grid-template-areas: 
+    "A A A A B B B B"
+    "C C C C C C C C";
+    gap: 5px;
+    text-align: start;
+}
+.NameItem h3 {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+}
+.p1 {
+    grid-area: A;
+}
+.p2 {
+    grid-area: B;
+}
+.p3 {
+    opacity: 0.8;
+    grid-area: C;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.ButtonItem {
+    text-decoration: none;
+    align-self: center;
+    display: block;
+    height: 30px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: rgb(105, 105, 105);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s ease;
+}
+.ButtonItem:hover {
+    background: rgb(85, 85, 85);
+}
+.ButtonItem:hover {
+    transition: 1s;
+}

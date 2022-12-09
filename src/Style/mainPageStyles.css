@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@media (max-width: 800px) {
+  .socBar {
+    display: none;
+  }
+}
+
+.MainPage {
+  background-image: url(../images/Index/lidbeerbar.jpeg);
+  height: 66vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.MainPageButton {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 0.07em;
+  padding: 2px 12px 6px 12px;
+  border-radius: 0px;
+  height: 35px;
+  border: 1px solid #9C6CEB;
+  position: relative;
+  top: 300px;
+}
+
+.MainPageButton {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* Время эффекта */
+}
+
+.MainPageButton:hover {
+  border: 1px solid #b19cd3;
+}
+
+.MainPage .socBar a {
+  display: block;
+  height: 45px;
+}
+
+.MainPage .socBar {
+  position: absolute;
+  top: 23%;
+  right: 1%;
+  width: 30px;
+}
+
+.socBar img {
+  opacity: 0.8;
+}
+
+.socNet {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* Время эффекта */
+}
+
+.socNet:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  /* Увеличиваем масштаб */
+}
+/*# sourceMappingURL=mainPageStyles.css.map */

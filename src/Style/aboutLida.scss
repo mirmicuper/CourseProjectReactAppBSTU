@@ -1,0 +1,62 @@
+@media (min-width: 800px) and (max-width: 1040.98px) {
+    .boxNum {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .boxNum .boxNumInner {
+        justify-items: center;
+    }
+}
+@media (min-width: 1041px) {
+    .boxNum {
+        grid-template-columns: auto auto auto auto auto ;
+    }
+}
+.aboutLida {
+    width: 100%;
+}
+.aboutLida h3 {
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.phka {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.phka p{
+    letter-spacing: 0.07em;
+    text-align: center;
+    font-size: 20px;
+}
+.boxNum {
+    display: grid;
+    justify-content: space-evenly;
+}
+.boxNum .boxNumInner {
+    display: grid;
+    place-items: center;
+}
+.boxNum h2 {
+ /*  */
+    font-weight: 400;
+    font-style: normal;
+    width: 92px;
+    height: 94px;
+    font-size: 80px;
+    line-height: 94px;
+    color: rgba(156, 108, 235, 0.2);
+}
+.boxNumInner {
+    margin-bottom: 80px;
+}
+
+.boxNumInner p {
+    letter-spacing: 0.07em;
+    font-size: 20px;
+    margin-top: -80px;
+}

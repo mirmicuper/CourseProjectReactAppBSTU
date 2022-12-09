@@ -1,0 +1,223 @@
+@media (min-width: 1001px) and (max-width: 1040.98px) {
+  .imgCatalogItem {
+    width: 600px;
+    justify-items: center;
+  }
+  .genBlokItem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 700px 500px;
+        grid-template-columns: 700px 500px;
+    margin-top: 100px;
+  }
+  .ButtonItemPage {
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: dimgray;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .aboutCatalogItem {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 110px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 70%;
+  }
+  .blockInGenBlock {
+    -ms-grid-columns: 150px 150px;
+        grid-template-columns: 150px 150px;
+  }
+}
+
+@media (min-width: 1041px) {
+  .imgCatalogItem {
+    width: 600px;
+    justify-items: center;
+  }
+  .genBlokItem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 700px 500px;
+        grid-template-columns: 700px 500px;
+    margin-top: 100px;
+  }
+  .ButtonItemPage {
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: dimgray;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .aboutCatalogItem {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 110px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 70%;
+  }
+  .blockInGenBlock {
+    -ms-grid-columns: 150px 150px;
+        grid-template-columns: 150px 150px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .imgCatalogItem {
+    width: 300px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-left: -40px;
+  }
+  .genBlokItem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+  .div {
+    margin-top: 30px;
+  }
+  .div > h1 {
+    width: 80%;
+  }
+  .ButtonItemPage {
+    width: 80%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-top: 30px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-bottom: 40px;
+    border-radius: 9px;
+    background: dimgray;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  .aboutCatalogItem {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+  .blockInGenBlock {
+    -ms-grid-columns: 160px 160px;
+        grid-template-columns: 160px 160px;
+  }
+}
+
+.allBlock {
+  display: -ms-grid;
+  display: grid;
+}
+
+.genBlokItem {
+  display: -ms-grid;
+  display: grid;
+}
+
+.imgCatalogItem {
+  display: -ms-grid;
+  display: grid;
+  border-radius: 15px;
+  opacity: .7;
+}
+
+.blockInGenBlock {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 20px;
+}
+
+.feedbackBlock {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 20px;
+  -ms-grid-columns: 150px 150px;
+      grid-template-columns: 150px 150px;
+}
+
+.aboutCatalogItem {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+
+.aboutCatalogItem h2 {
+  margin-bottom: 20px;
+}
+
+.div > h4 {
+  margin-top: 20px;
+}
+
+.divInner {
+  margin-top: 40px;
+}
+
+.ButtonItemPage {
+  border: none;
+  text-align: center;
+  border-radius: 9px;
+  background: dimgray;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.ButtonItemPage a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ButtonItemPage:hover {
+  background: #555555;
+}
+
+.ButtonItemPage:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=CatalogItemPageStyle.css.map */

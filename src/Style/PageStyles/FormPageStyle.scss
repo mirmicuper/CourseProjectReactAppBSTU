@@ -1,0 +1,113 @@
+@media (min-width: 801px) and (max-width: 1300.98px) {
+    .formPage {
+        justify-items: center;
+        grid-template-areas: 
+        "H H H H"
+        "C C I I"
+        "C C I I";
+    }
+    .formPage h1 {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .formPage .formImgClass {
+        width: 400px;
+        margin-top: 100px;
+    }
+}
+@media (min-width: 1301px) {
+    .formPage {
+        justify-items: center;
+        grid-template-areas: 
+        "H H H H"
+        "C C I I"
+        "C C I I";
+    }
+    .formPage h1 {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .formPage img {
+        width: 60%;
+        margin-top: 4%;
+        justify-self: center;
+    }
+    .formsComponents {
+        margin-left: 30px;
+    }
+}   
+
+@media (max-width: 800px) {
+    .formPage {
+        justify-items: center;
+        grid-template-areas: 
+        "H H H H"
+        "I I I I"
+        "C C C C";
+    }
+    .formImgClass {
+        width: 90%;
+        border-radius: 25px;
+        opacity: .7;
+    }
+    .formImg {
+        justify-self: center;
+    }
+    .formPage h1 {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .formsSubmitButton {
+        margin-top: 10px;
+    }
+}
+.formPage {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+
+    background-color: rgba(95, 122, 133, 0.1);
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+.formPage h1 {
+    text-align: center;
+    grid-area: H;
+}
+.formPage .formImgClass {
+    border-radius: 25px;
+    opacity: .7;
+}
+.formImg {
+    display: grid;
+    grid-area: I;
+}
+.formsSubmitButton {
+    width: 50%;
+    height: 50px;
+    border: none;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    background: rgb(105, 105, 105);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.5s ease;
+}
+.formsSubmitButton a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.formsSubmitButton:hover {
+    background: rgb(85, 85, 85);
+}
+.formsSubmitButton:hover {
+    transition: 1s;
+}
+.formsComponents {
+    grid-area: C;
+}
