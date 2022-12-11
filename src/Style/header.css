@@ -23,6 +23,14 @@
   .headerClass img {
     width: 250px;
   }
+  .burgerMenu ul .qwea {
+    display: none;
+  }
+  .burgerMenu:hover ul .qwea {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1041px) {
@@ -31,6 +39,9 @@
   }
   .headerClass img {
     width: 250px;
+  }
+  .burgerMenu ul {
+    display: none;
   }
 }
 
@@ -59,6 +70,29 @@
   .headerClass img {
     width: 40%;
   }
+  .burgerMenu ul .qwea {
+    display: none;
+  }
+  .burgerMenu:hover ul .qwea {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+
+.burgerMenu ul li .qwea {
+  position: relative;
+  margin-top: 50px;
+}
+
+.burgerMenu ul {
+  width: 100%;
+  height: 80px;
+  list-style: none;
+}
+
+.burgerMenu ul li {
+  height: 80px;
 }
 
 .headerClass {

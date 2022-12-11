@@ -10,7 +10,7 @@ import Footer from '../ComponentsPage/footer';
 export default function HomePage() {
     return (
     <div>
-        <Header />
+        <Header links="1"/>
         <MainPage />
         <AboutLida />
         <Review />

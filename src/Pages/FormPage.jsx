@@ -54,7 +54,7 @@ export default function FormPage() {
     }
     return(
         <div>
-            <HeaderRel color="black"/>
+            <HeaderRel color="black" links="0"/>
             <div className="formPage">
                 <h1>{dataCurrPage[0]}</h1>
                 <div className="formsComponents">

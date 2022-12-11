@@ -99,7 +99,7 @@ export default function CatalogItemPage() {
     }
     return(
         <div>
-            <Header color="black"/>
+            <Header color="black" links="0"/>
             <div className="allBlock">
                 <div className="genBlokItem">
                     <img className="imgCatalogItem" src={arrImg[item]}/>
