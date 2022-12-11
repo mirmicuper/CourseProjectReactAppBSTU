@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputEmail() {
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализация состаяния Email с помощью useState
     const [email, setEmail] = useState("");
@@ -25,7 +26,7 @@ function InputEmail() {
             break;
     }
     return(
-        <div>
+        <>
             <input className="inputEmail"
             type="email" 
             placeholder={dataCurrPage[0]}
@@ -33,7 +34,7 @@ function InputEmail() {
                 setEmail(e.target.value)
             }}
             />
-        </div>
+        </>
     );
 }
 

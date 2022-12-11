@@ -1,7 +1,7 @@
-import '../Style/filterStyle.css'
-import data from '../Data.json'
 import React from 'react';
 import { useSelector } from 'react-redux'
+import data from '../Data.json'
+import '../Style/filterStyle.css'
 
 function Filters({onChange}) {
     //инициализация переменной lang хранящей язык из store

@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 function SelectLang() {
     //инициализация dispatch и смежных переменных
     const dispatch = useDispatch();
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     return(
         <div className="selectLang">

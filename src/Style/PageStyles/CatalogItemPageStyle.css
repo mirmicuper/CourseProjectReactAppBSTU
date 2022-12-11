@@ -54,7 +54,10 @@
     display: grid;
     -ms-grid-columns: 700px 500px;
         grid-template-columns: 700px 500px;
-    margin-top: 100px;
+    margin-top: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .ButtonItemPage {
     width: 50%;

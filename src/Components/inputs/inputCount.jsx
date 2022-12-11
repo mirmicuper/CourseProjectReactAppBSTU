@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputCount() {
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализируем константы
     const numSeats = 20;
@@ -34,14 +35,14 @@ function InputCount() {
             break;
     }
     return(
-        <div>
+        <>
             <label htmlFor="inputCount">{dataCurrPage[0]}</label>
             <select className="inputCount" 
                 name="inputCount" 
                 id="inputCount">
                 {arrSeat}
             </select>
-        </div>
+        </>
     );
 }
 

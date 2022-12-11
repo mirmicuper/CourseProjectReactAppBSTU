@@ -98,7 +98,7 @@ export default function CatalogItemPage() {
             break;
     }
     return(
-        <div>
+        <>
             <Header color="black" links="0"/>
             <div className="allBlock">
                 <div className="genBlokItem">
@@ -128,6 +128,6 @@ export default function CatalogItemPage() {
                 </div>
             </div>
             <Footer />
-        </div>
+        </>
     );
 }

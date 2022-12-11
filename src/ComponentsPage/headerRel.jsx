@@ -14,7 +14,7 @@ function HeaderRel(props) {
         require('../images/logo.png'), // black logo
         require('../images/logo2.png') // light logo 
     ];
-    //обработка цвета логотипа
+    //инициализация массивов ссылок
     const linkArrIds = [
         "#mainpage",
         "#aboutUs",
@@ -25,7 +25,9 @@ function HeaderRel(props) {
         "/",
         "/"
     ]
+    //обработка цвета логотипа
     props.color == "black" ? currLogo = arrImg[1] : currLogo = arrImg[0];
+    // 0 => links; 1 => ids;
     props.links == "0" ? currHeaderLink = linkArrLinks : currHeaderLink = linkArrIds;
     //инициализация переменной lang хранящей язык из store
     const lang = useSelector((state) => state.languages.langIS)

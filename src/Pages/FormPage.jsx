@@ -53,7 +53,7 @@ export default function FormPage() {
             break;
     }
     return(
-        <div>
+        <>
             <HeaderRel color="black" links="0"/>
             <div className="formPage">
                 <h1>{dataCurrPage[0]}</h1>
@@ -77,6 +77,6 @@ export default function FormPage() {
                 </div>
             </div>
             <Footer />
-        </div>
+        </>
     );
 }

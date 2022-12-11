@@ -4,13 +4,13 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputDate() {
-    
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализируем состяния через useState
     const [day, setDay] = useState(1);
     const [month, setMonth] = useState(1);
     const [year, setYear] = useState(2022);
-    //
+    //инициализируем массив состояний
     let dataCurrPage = [
         data.dataPageRU[9].day,
         data.dataPageRU[9].month,
@@ -85,7 +85,7 @@ function InputDate() {
             break;
     }
     return(
-        <div>
+        <>
             <div className="boxForInputs">
                 <label htmlFor="inputDay">{dataCurrPage[0]}</label>
                 <select className="date" name="inputDay" id="inputDay" onChange={
@@ -117,7 +117,7 @@ function InputDate() {
                     {tempYears}
                 </select>
             </div>
-        </div>
+        </>
     );
 }
 

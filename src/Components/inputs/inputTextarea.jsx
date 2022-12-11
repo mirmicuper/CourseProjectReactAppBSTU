@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputTextArea() {
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализация состаяния Textarea с помощью useState
     const [textArea, setTextArea] = useState("")
@@ -25,7 +26,7 @@ function InputTextArea() {
             break;
     }
     return(
-        <div>
+        <>
             <textarea className="textArea"
              name="textA" 
              id="textA" 
@@ -36,7 +37,7 @@ function InputTextArea() {
                  setTextArea(e.target.value)
              }}>
             </textarea>
-        </div>
+        </>
     );
 }
 

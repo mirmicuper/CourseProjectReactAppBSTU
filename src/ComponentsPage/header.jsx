@@ -17,6 +17,7 @@ function Header(props) {
     ];
     //обработка цвета логотипа
     props.color == "black" ? currLogo = arrImg[1] : currLogo = arrImg[0];
+    //инициализация массива ссылок
     const linkArrIds = [
         "#mainpage",
         "#aboutUs",
@@ -69,7 +70,6 @@ function Header(props) {
             <div className="selectLangHeader">
                 <SelectLang />
             </div>
-            {/* <IconContext.Provider value={{ padding: "20px" }}> */}
             <label class="burgerMenu" for="q1">
                 <ul>
                     <a href="#">
@@ -84,9 +84,6 @@ function Header(props) {
                     <Link to={currHeaderLink[2]}><li class="el qwea w3">{dataCurrPage[2]}</li></Link>
                 </ul>
             </label>
-                
-                
-            {/* </IconContext.Provider> */}
         </header>   
     );
 }

@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputPhone() {
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализация состаяния Phone с помощью useState
     let dataCurrPage = [
@@ -25,14 +26,14 @@ function InputPhone() {
     }
     const [phone, setPhone] = useState("")
     return(
-        <div>
+        <>
             <input className="inputPhone" 
             type="phone" 
             placeholder={dataCurrPage[0]}
             onChange={(e) => {
                 setPhone(e.target.value)
             }}/>
-        </div>
+        </>
     );
 }
 

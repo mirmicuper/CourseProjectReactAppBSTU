@@ -9,7 +9,7 @@ import Footer from '../ComponentsPage/footer';
 
 export default function HomePage() {
     return (
-    <div>
+    <>
         <Header links="1"/>
         <MainPage />
         <AboutLida />
@@ -17,6 +17,6 @@ export default function HomePage() {
         <AboutUs />
         <Catalog />
         <Footer />
-    </div>
+    </>
     );
 }

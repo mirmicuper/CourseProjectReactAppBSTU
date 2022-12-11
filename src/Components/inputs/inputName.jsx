@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import data from '../../Data.json'
 
 function InputName() {
+    //получаем состояние языка из стора в переменную lang
     const lang = useSelector((state) => state.languages.langIS)
     //инициализация состаяния Name с помощью useState
     let dataCurrPage = [

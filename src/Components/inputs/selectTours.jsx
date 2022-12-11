@@ -5,9 +5,9 @@ import { useSelector } from "react-redux";
 import { useState } from "react";
 
 function SelectTour() {
-
+//получаем состояние языка из стора в переменную lang
   const lang = useSelector((state) => state.languages.langIS)
-
+//получаем состояние выбранного товара из стора в переменную item
   const item = useSelector((state) => state.items.itemIS)
   //создание options для компонента <Select />
   const optionsRU = [
